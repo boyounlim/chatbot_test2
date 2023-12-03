@@ -8,7 +8,7 @@ simple_text_sample = {
         "outputs": [
             {
                 "simpleText": {
-                    "text": "안녕하세요! 저는 챗봇입니다."
+                    "text": "안녕하세요! 저는 카카오 챗봇입니다."
                 }
             },
             {
