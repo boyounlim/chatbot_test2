@@ -13,7 +13,7 @@ simple_text_sample = {
             },
             {
                 "simpleText": {
-                    "text": "어떤 카드를 보여드릴까요?"
+                    "text": "무엇을 도와드릴까요?"
                 }
             },
         ],
