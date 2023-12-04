@@ -13,7 +13,7 @@ simple_text_sample = {
             },
             {
                 "simpleText": {
-                    "text": "무엇을 도와드릴까요???"
+                    "text": "무슨 카카오 서비스를 도와드릴까요???"
                 }
             },
         ],
