@@ -23,7 +23,7 @@ async def home():
     return HTMLResponse(content=page, status_code=200)
 
 SYSTEM_MSG = "당신은 카카오 서비스 제공자입니다."
-bfirst = True
+
 @app.post("/skill/hello")
 async def skill(req: ChatbotRequest):
     response = openai.ChatCompletion.create(
@@ -34,6 +34,7 @@ async def skill(req: ChatbotRequest):
         ],
         temperature=req.temperature,
     )
+    bfirst = True
     if bfirst:
         bfirst = False
         output_msg = '안녕하세요! 저는 카카오 챗봇입니다.'
